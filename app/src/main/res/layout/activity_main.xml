@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    >
+
+
+
+        <TextView
+            android:id="@+id/imeiText"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/imeiBtn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="get imei">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/wifiText"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/wifiBtn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Wifi">
+
+        </Button>
+        <TextView
+            android:id="@+id/dataText"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <Button
+            android:id="@+id/dataBtn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Mobile DATA">
+
+        </Button>
+        <TextView
+            android:id="@+id/signalText"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <Button
+            android:id="@+id/signalBtn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check data strength">
+
+        </Button>
+
+
+        <TextView
+            android:id="@+id/btText"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <Button
+            android:id="@+id/btBtn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Bluetooth">
+
+        </Button>
+        <TextView
+            android:id="@+id/audiojackText"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <Button
+            android:id="@+id/audiojackBtn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Audio Jack">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/usbText"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <Button
+            android:id="@+id/usbBtn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check USB port">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/CPUtext"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/CPUBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:elevation="1dp"
+            android:text="Check CPU usage">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/ramText"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/ramBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:elevation="1dp"
+            android:text="Check Ram usage">
+
+        </Button>
+
+
+        <TextView
+            android:id="@+id/tempText"
+            android:textSize="24sp"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/tempBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:elevation="1dp"
+            android:text="Check Temperature">
+
+        </Button>
+
+
+</LinearLayout>
+
+</ScrollView>
